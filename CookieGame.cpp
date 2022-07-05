@@ -14,21 +14,6 @@ void shop();
 int main()
 {
     menu();
-    /*  while (x < 100) {
-          char inp;
-          cout << "Your Current Cookies are " << cookie << flush << endl;
-          cout << "Enter a To Increase Cookies and d to end the game:" << flush;
-          cin >> inp;
-          if (inp == 'd' || inp == 'D')
-          {
-
-              break;
-              return 0;
-          }
-          cout << "The Total Cookies Are : " << cookies(inp) << flush << endl;
-          _getch();
-          system("CLS");
-      } */
     return 0;
 }
 int cookies(char x)
@@ -154,4 +139,3 @@ void shop()
     }
     menu();
 }
-
